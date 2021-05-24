@@ -3,12 +3,13 @@
 This application makes it possible to read out GoodWe Solar inverters through WiFi (without using a cloud solution).
 
 ## Usage
-- Set the IP-address for you inverter(s) in `inverters.php`.
+- Copy `inverters.php.dist` to `inverters.php` and set the IP-address(es) for you inverter(s) in `inverters.php`.
 - Run `php read.php`
 - Output of the inverter(s) in shown in the console
+- When setting pv-output ApiKey and SystemId in `inverters.php`, the output will be send to PVOutput
 
 ## Next steps:
-- Add option to send output to PVOutput and home automation solutions
+- Add option to send output to home automation solutions
 
 ## Requirements
 - PHP, Version 7.3+
