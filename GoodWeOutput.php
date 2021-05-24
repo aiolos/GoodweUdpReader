@@ -37,6 +37,11 @@ final class GoodWeOutput
         return $this;
     }
 
+    public function getDateTime(): \DateTime
+    {
+        return $this->dateTime;
+    }
+
     public function toArray(): array
     {
         return [
@@ -72,6 +77,11 @@ final class GoodWeOutput
         $this->voltAc1 = $voltage;
     }
 
+    public function getVoltageAc1()
+    {
+        return $this->voltAc1;
+    }
+
     public function setCurrentAc1($current)
     {
         $this->currentAc1 = $current;
@@ -87,6 +97,11 @@ final class GoodWeOutput
         $this->power = $power;
     }
 
+    public function getPower()
+    {
+        return $this->power;
+    }
+
     public function setWorkMode($workMode)
     {
         $this->workMode = $workMode;
@@ -97,9 +112,19 @@ final class GoodWeOutput
         $this->temperature = $temperature;
     }
 
+    public function getTemperature()
+    {
+        return $this->temperature;
+    }
+
     public function setGenerationToday($today)
     {
         $this->generationToday = $today;
+    }
+
+    public function getGenerationToday()
+    {
+        return $this->generationToday;
     }
 
     public function setGenerationTotal($total)
