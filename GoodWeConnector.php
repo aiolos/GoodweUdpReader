@@ -20,6 +20,7 @@ class GoodWeConnector
 
             die("Couldn't create socket: [$errorcode] $errormsg \n");
         }
+        socket_set_option($this->socket,SOL_SOCKET, SO_RCVTIMEO, ['sec' => 1, 'usec' => 0]);
     }
 
     public function sendMessage($message, $ip, $port = self::PORT)
