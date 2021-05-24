@@ -16,4 +16,6 @@ This application makes it possible to read out GoodWe Solar inverters through Wi
 - A GoodWe inverter with minimal version x.y.14
 
 ## Acknowledgments 
-A lot of information comes from https://gathering.tweakers.net/forum/list_messages/1799239/last and related links in that topic.
+A lot of information comes from [Tweakers forum](https://gathering.tweakers.net/forum/list_messages/1799239/last) and related links in that topic.
+More specific posts: [this](https://gathering.tweakers.net/forum/list_message/67162456#67162456) and [this](https://gathering.tweakers.net/forum/list_message/67168926#67168926)
+and this [repo](https://github.com/koen-lee/GoodweUDPToPvOutput)
